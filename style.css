@@ -8,7 +8,7 @@ body{
     transition: all 3s ease;
 }
 
-button{
+.bton{
     position: fixed;
     bottom: 20px;
     left: 50%;
@@ -55,4 +55,16 @@ button:hover {
 /* Click */
 button:active {
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+img{
+    width: 200px;
+    border-radius: 20px;
+    border: 2px solid black;
+}
+
+
+a{
+    color: white;
+    text-decoration: none;
 }
